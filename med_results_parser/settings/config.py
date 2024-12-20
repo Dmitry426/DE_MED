@@ -27,9 +27,9 @@ class DatabaseSettings(BaseSettings):
     Configuration for the database connection, validated using Pydantic.
     """
     db_name: str = "db"
-    db_user: str = "hseguest"
-    db_password: str = "hsepassword"
-    host: str = "rc1b-o3ezvcgz5072sgar.mdb.yandexcloud.net"
+    db_user: str = "user"
+    db_password: str = "pass"
+    host: str = "localhost"
     port: int = 6432
 
     class Config:
